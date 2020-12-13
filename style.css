@@ -1,0 +1,27 @@
+html {
+    font-size: 18px;
+}
+
+body {
+    font-family: Kumbh Sans;
+    color: rgb(150,150,150);
+    background-color: rgb(25,162,174);
+}
+
+.content-wrapper {
+    background-color: rgb(25,162,174);
+    width: 90%;
+}
+
+@media only screen and (min-width: 768px) {
+    /* ----Tablet Styles Here---- */
+}
+
+@media only screen and (min-width: 1200px) {
+    /* ----Desktop Styles Here---- */
+}
+
+
+
+/*  background-color: rgb(45,50,72);
+    background-color: rgb(106,111,129); */
