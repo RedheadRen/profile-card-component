@@ -1,42 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Profile card component</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    
+    <title>Profile card component</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-  <link href="https://fonts.google.com/specimen/Kumbh+Sans:400,700" rel="stylesheet">
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
 
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" >
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
+  </head>
 
-  <div class="content-wrapper">
-    <h1>Victor Crest</h1><span>26</span>
-    <p>London</p>
-  </div>
-  <div>
-    <h1>80K</h1>
-    <p>Followers</p>
-  </div>
-  <div>
-    <h1>803K</h1>
-    <p>Likes</p>
-  </div>
-  <div>
-    <h1>1.4K</h1>
-    <p>Photos</p>
-  </div>
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Renny</a>.
-  </div>
-</body>
+  <body>
+      <div id="pattern">
+        <div class="content-wrapper">
+          <div class="profile-pic">
+            <img src="img/image-victor.jpg" alt="Victor Crest Headshot"/>
+          </div>
+
+          <section class="profile-card-pattern">
+            <img src="img/bg-pattern-card.svg" alt="teal bubbles background"/>
+          </section>
+
+          <section class="profile-card">
+            <div class="info">
+              <article>
+                <h1>Victor Crest<span>26</span></h1>
+                <p>London</p>
+              </article>
+            </div>
+            <div class="info-divider"></div>
+            <div class="stats">
+              <article>
+                <h1>80K</h1>
+                <p>Followers</p>
+              </article>
+              <article>
+                <h1>803K</h1>
+                <p>Likes</p>
+              </article>
+              <article>
+                <h1>1.4K</h1>
+                <p>Photos</p>
+              </article>
+            </div>
+          </section>
+        </div>
+          
+        <div class="attribution">
+          Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+          Coded by <a href="https://www.scarletcoder.com">Renny</a>.
+        </div>
+      </div>
+  </body>
 </html>

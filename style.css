@@ -3,14 +3,143 @@ html {
 }
 
 body {
-    font-family: Kumbh Sans;
-    color: rgb(150,150,150);
+    font-family: 'Kumbh Sans', sans-serif;
     background-color: rgb(25,162,174);
 }
 
+h1 {
+    color: rgb(27, 27, 27);
+    font-size: 1em;
+    margin: 30px 0 0 0;
+}
+
+span,
+p {
+    color: rgb(120, 120, 120);
+}
+
+span {
+    font-size: .95em;
+    font-weight: 400;
+    padding-left: 10px;
+}
+
+p {
+    font-size: .6em;
+    line-height: 3px;
+    letter-spacing: 1px;
+    margin: 10px 0 20px 0;
+}
+
+#pattern {
+    background: url(img/bg-pattern-top.svg), url(img/bg-pattern-bottom.svg);
+    background-position: -170px -200px, 175px 300px;
+    background-repeat: no-repeat, no-repeat;
+    background-size: 375px 375px, 750px 675px;
+    background-attachment: scroll, scroll;
+    background-blend-mode: color-dodge, lighten;
+}
+
 .content-wrapper {
-    background-color: rgb(25,162,174);
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    margin: 0;
+    width: 100%;
+}
+
+.profile-pic {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    left: 50px;
+    top: 215px;
+    width: 75%;
+}
+
+.profile-pic img {
+    align-items: center;
+    border: 5px solid whitesmoke;
+    border-radius: 100px;
+}
+
+.profile-card-pattern img {
+    align-items: center;
+    border-radius: 13px 13px 0 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 19px;
     width: 90%;
+}
+
+.profile-card {
+    align-items: center;
+    background-color: whitesmoke;
+    border-radius: 0 0 13px 13px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 5px;
+    padding-top: 50px;
+    width: 90%;
+}
+
+.info {
+    align-items: center;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    padding-bottom: 10px;
+    width: 75%;
+}
+
+.info p {
+    font-size: .7em;
+    margin-top: 15px;
+}
+
+.info-divider {
+    background: rgb(150,150,150);
+    height: .5px;
+    width: 99%;
+}
+
+.stats {
+    align-items: center;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    margin: 5px 0 10px 0;
+    width: 80%;
+}
+
+.info article,
+.stats article {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.stats p {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.attribution {
+    font-size: .61em;
+    /* margin: 20px 0 0 0; */
+    text-align: center;
+}
+
+.attribution a {
+    color: rgb(62,82,163);
 }
 
 @media only screen and (min-width: 768px) {
@@ -23,5 +152,7 @@ body {
 
 
 
-/*  background-color: rgb(45,50,72);
-    background-color: rgb(106,111,129); */
+/*  very dark desaturated blue: rgb(45,50,72);
+    dark grayish blue: rgb(106,111,129);
+    dark cyan: rgb(25,162,174); 
+    dark gray: rgb(150,150,150,); */
