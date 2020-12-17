@@ -33,11 +33,11 @@ p {
 
 #pattern {
     background: url(img/bg-pattern-top.svg), url(img/bg-pattern-bottom.svg);
-    background-position: -170px -200px, 175px 300px;
+    background-position: -550px -370px, 175px 300px;
     background-repeat: no-repeat, no-repeat;
-    background-size: 375px 375px, 750px 675px;
+    background-size: 750px 750px, 750px 750px;
     background-attachment: scroll, scroll;
-    background-blend-mode: color-dodge, lighten;
+    background-blend-mode: lighten, lighten;
 }
 
 .content-wrapper {
@@ -56,8 +56,7 @@ p {
     flex-direction: column;
     justify-content: center;
     position: absolute;
-    left: 50px;
-    top: 215px;
+    top: 34%;
     width: 75%;
 }
 
@@ -65,6 +64,7 @@ p {
     align-items: center;
     border: 5px solid whitesmoke;
     border-radius: 100px;
+    justify-content: center;
 }
 
 .profile-card-pattern img {
@@ -73,8 +73,7 @@ p {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-left: 19px;
-    width: 90%;
+    width: 310px;
 }
 
 .profile-card {
@@ -84,9 +83,8 @@ p {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-left: 5px;
     padding-top: 50px;
-    width: 90%;
+    width: 310px;
 }
 
 .info {
@@ -134,7 +132,6 @@ p {
 
 .attribution {
     font-size: .61em;
-    /* margin: 20px 0 0 0; */
     text-align: center;
 }
 
@@ -144,10 +141,24 @@ p {
 
 @media only screen and (min-width: 768px) {
     /* ----Tablet Styles Here---- */
+    #pattern {
+        background-position: -275px -300px, 300px 600px;
+    }
+
+    .profile-pic {
+        top: 39%;
+    }
 }
 
 @media only screen and (min-width: 1200px) {
     /* ----Desktop Styles Here---- */
+    #pattern {
+        background-position: -175px -400px, 650px 300px;
+    }
+
+    .profile-pic {
+        top: 32%;
+    }
 }
 
 
