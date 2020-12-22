@@ -57,7 +57,7 @@ p {
     justify-content: center;
     position: absolute;
     top: 34%;
-    width: 75%;
+    width: 80%;
 }
 
 .profile-pic img {
@@ -73,7 +73,7 @@ p {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 310px;
+    width: 320px;
 }
 
 .profile-card {
@@ -84,7 +84,7 @@ p {
     flex-direction: column;
     justify-content: center;
     padding-top: 50px;
-    width: 310px;
+    width: 320px;
 }
 
 .info {
@@ -131,7 +131,7 @@ p {
 }
 
 .attribution {
-    font-size: .61em;
+    font-size: .8em;
     text-align: center;
 }
 
