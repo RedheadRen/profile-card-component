@@ -139,16 +139,6 @@ p {
     color: rgb(62,82,163);
 }
 
-@media only screen and (min-width: 768px) {
-    /* ----Tablet Styles Here---- */
-    #pattern {
-        background-position: -275px -300px, 300px 600px;
-    }
-
-    .profile-pic {
-        top: 39%;
-    }
-}
 
 @media only screen and (min-width: 1200px) {
     /* ----Desktop Styles Here---- */
@@ -156,9 +146,6 @@ p {
         background-position: -175px -400px, 650px 300px;
     }
 
-    .profile-pic {
-        top: 32%;
-    }
 }
 
 
